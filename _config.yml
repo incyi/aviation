@@ -1,0 +1,9 @@
+title: Aviation logbook Inanc Yigit
+description: "My aviation logs, aircraft notes and flight experiences."
+theme: jekyll-theme-modernist
+url: 'https://incyi.github.io/aviation'
+github_username: incyi
+github: [metadata]
+show_downloads: false
+plugins:
+  - jekyll-sitemap
