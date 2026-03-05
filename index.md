@@ -5,7 +5,8 @@ title: Home
 
 # My Aviation life.
 
-Welcome to my aviation portfolio.  
+Welcome to my aviation portfolio.
+[Full flying videos on Youtube.](https://youtube.com/@inanc64?si=KSc4CRotWbs08ldi)
 
 
 ## whoami  
