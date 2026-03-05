@@ -26,7 +26,7 @@ I am İnanç Yiğit
 - PH-EFL Pipistrel Velis Electro
 
 
-## Flight Logs
+## Pilot logbook
 - **2025‑12‑10** – PH-EFL PPL Lesson EHLE Lelystad Airport 1 hour
 - **2025‑09‑30** – PH-4V1 RPL-MLA Lesson EHMM Middenmeer aerodome 1 hour 
 - **2025‑08‑21** – PH-4V1 RPL-MLA Lesson EHMM Middenmeer aerodome 1 hour
