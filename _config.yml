@@ -1,9 +1,3 @@
 title: Aviation logbook İnanç Yiğit
 description: "My aviation logs, aircraft notes and flight experiences."
 theme: jekyll-theme-modernist
-url: 'https://github.com/incyi/aviation/'
-github_username: incyi
-github: [metadata]
-show_downloads: false
-plugins:
-  - jekyll-sitemap
