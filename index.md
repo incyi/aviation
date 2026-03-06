@@ -25,13 +25,13 @@ Airplanes I have used during my lessons.
 
 ## 📘 RPL-MLA Pilot logbook
 
-| Date | From | To | Aircraft Type | Registration | Crew Function | Flight Time | Operation Type | Remarks |
-|------|------|----|----------------|--------------|------------------------------|----------------|---------|
-| 2025‑08‑21 | EHMM | EHMM | TL‑3000 | PH‑4V1 | Dual | 1.0 | VFR Training | Lesson 1 |
-| 2025‑09‑30 | EHMM | EHMM | TL‑3000 | PH‑4V1 | Dual | 1.0 | VFR Training | Lesson 2 |
+| Date       | From | To   | Aircraft Type | Registration | Crew Function | Flight Time | Operation Type | Remarks  |
+|------------|------|------|---------------|--------------|---------------|-------------|----------------|----------|
+| 2025‑08‑21 | EHMM | EHMM | TL‑3000       | PH‑4V1       | Dual          | 1.0         | VFR Training   | Lesson 1 |
+| 2025‑09‑30 | EHMM | EHMM | TL‑3000       | PH‑4V1       | Dual          | 1.0         | VFR Training   | Lesson 2 |
 
 ## 📘 PPL Pilot logbook
 
-| Date | From | To | Aircraft Type | Registration | Crew Function | Flight Time | Operation Type | Remarks |
-|------|------|----|----------------|--------------|----------------|--------------|----------------|---------|
-| 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL | Dual | 1.0 | VFR Training | Lesson 1 – Electric PPL |
+| Date       | From | To   | Aircraft Type           | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
+|------------|------|------|-------------------------|--------------|---------------|-------------|----------------|-------------------------|
+| 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL       | Dual          | 1.0         | VFR Training   | Lesson 1 – Electric PPL |
