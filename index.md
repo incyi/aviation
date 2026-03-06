@@ -15,13 +15,13 @@ I’m İnanç Yiğit, an enthusiastic student pilot with a passion for aviation,
 
 ## 🛫 Airports
 Airports I have flown from.
-- EHMM - Middenmeer Aerodrome
-- EHLE - Lelystad Airport
+- [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
+- [EHLE](/airports/EHLE.md) - Lelystad Airport
 
 ## 🛩️ Airplanes
 Airplanes I have used during my lessons.
-- PH-4V1 TL Ultralight TL-3000 Sirius
-- PH-EFL Pipistrel Velis Electro
+- PH-4V1 [TL Ultralight TL-3000 Sirius](/airplanes/TL3000.md)
+- PH-EFL [Pipistrel Velis Electro](/airplanes/VelisElectro.md)
 
 ## 📘 RPL-MLA Pilot logbook
 
