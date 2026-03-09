@@ -15,7 +15,7 @@ I’m İnanç Yiğit, an enthusiastic student pilot with a passion for aviation,
 
 ## 🛫 Airports
 Airports I have flown from.
-- [EHHV](/airports/EHHV.md) - Hilversum Airfield
+- [EHHV](/airports/EHHV.md) - Hilversum Airfield *As GA passenger only
 - [EHLE](/airports/EHLE.md) - Lelystad Airport
 - [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
 
