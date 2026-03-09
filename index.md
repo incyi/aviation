@@ -15,13 +15,15 @@ I’m İnanç Yiğit, an enthusiastic student pilot with a passion for aviation,
 
 ## 🛫 Airports
 Airports I have flown from.
-- [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
+- [EHHV](/airports/EHHV.md) - Hilversum Airfield
 - [EHLE](/airports/EHLE.md) - Lelystad Airport
+- [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
 
 ## 🛩️ Airplanes
 Airplanes I have used during my lessons.
 - PH-4V1 [TL Ultralight TL-3000 Sirius](/airplanes/TL3000.md)
 - PH-EFL [Pipistrel Velis Electro](/airplanes/VelisElectro.md)
+- PH-LEN [Cessna 172](/airplanes/C172.md) *As GA passenger only
 
 ## 📘 RPL-MLA Pilot logbook
 
@@ -35,3 +37,9 @@ Airplanes I have used during my lessons.
 | Date       | From | To   | Aircraft Type           | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
 |------------|------|------|-------------------------|--------------|---------------|-------------|----------------|-------------------------|
 | 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL       | Dual          | 1.0         | VFR Training   | Lesson 1 – Electric PPL |
+
+## 📘 GA Passenger logbook
+
+| Date       | From | To   | Aircraft Type | Registration | Seat      | Flight Time | Operation Type     | Remarks                          |
+|------------|------|------|---------------|--------------|-----------|-------------|--------------------|----------------------------------|
+| 2026‑03‑08 | EHHV | EHHV | C172          | PH‑LEN       | Back left | 0.5         | Sightseeing flight | Ömer right front, Zeyd left back |
