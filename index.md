@@ -42,4 +42,4 @@ Airplanes I have used during my lessons.
 
 | Date       | From | To   | Aircraft Type | Registration | Seat      | Flight Time | Operation Type     | Remarks                          |
 |------------|------|------|---------------|--------------|-----------|-------------|--------------------|----------------------------------|
-| 2026‑03‑08 | EHHV | EHHV | C172          | PH‑LEN       | Back left | 0.5         | Sightseeing flight | Ömer right front, Zeyd left back |
+| 2026‑03‑08 | EHHV | EHHV | C172          | PH‑LEN       | Left back | 0.5         | Sightseeing flight | Ömer right front, Zeyd right back|
