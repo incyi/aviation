@@ -36,7 +36,7 @@ Airplanes I have used during my lessons.
 
 | Date       | From | To   | Aircraft Type           | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
 |------------|------|------|-------------------------|--------------|---------------|-------------|----------------|-------------------------|
-| 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL       | Dual          | 1.0         | VFR Training   | Lesson 1 – Electric PPL |
+| 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL       | Dual          | 0.7         | VFR Training   | Lesson 1 – Electric PPL |
 
 ## 📘 GA Passenger logbook
 
