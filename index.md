@@ -6,11 +6,13 @@ title: Home
 # ✈️ My Aviation life.
 
 ## Menu
+<ul>
 {% for file in site.static_files %}
   {% if file.path contains '/airports/' %}
-    <li><a>{ file.path }</a></li>
+    <li><a>{{ file.path }}</a></li>
   {% endif %}
 {% endfor %}
+</ul>
 
 <ul>
 {% for file in site.static_files %}
