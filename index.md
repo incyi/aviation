@@ -5,6 +5,18 @@ title: Home
 
 # ✈️ My Aviation life.
 
+## Airports
+
+{% raw %}
+
+{% for file in site.static_files %}
+  {% if file.path contains '/airports/' %}
+    {{ file.path }}{{ file.name }}
+  {% endif %}
+{% endfor %}
+
+{% endraw %}
+
 Welcome to my aviation portfolio.
 Here I document my flights, training sessions, aircraft notes, and personal experiences as a student pilot.
 I also share observations, insights, and milestones throughout my aviation journey.  
