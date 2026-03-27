@@ -17,6 +17,16 @@ title: Home
 
 {% endraw %}
 
+
+<ul>
+{% for file in site.static_files %}
+  {% if file.path contains '/airports/' %}
+    <li>{{ file.path }}{{ file.name }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
 Welcome to my aviation portfolio.
 Here I document my flights, training sessions, aircraft notes, and personal experiences as a student pilot.
 I also share observations, insights, and milestones throughout my aviation journey.  
