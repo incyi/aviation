@@ -3,9 +3,18 @@ layout: default
 title: Home
 ---
 
-# ✈️ My Aviation life.
+# ✈️ My Aviation life
 
 {% include menu.html %}
+
+All my blog posts:
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 Welcome to my aviation portfolio.
 Here I document my flights, training sessions, aircraft notes, and personal experiences as a student pilot.
