@@ -6,8 +6,6 @@ title: Home
 # ✈️ My Aviation life.
 
 ## Menu
-
-
 <ul>
 {% comment %} ### Home page {% endcomment %}
 <li><a href="{{ '/' | relative_url }}">Home</a></li>
@@ -32,16 +30,16 @@ I also share observations, insights, and milestones throughout my aviation journ
 Full flying videos are available on my [YouTube channel.](https://youtube.com/@inanc64?si=KSc4CRotWbs08ldi)
 
 ## 👨‍✈️ whoami  
-I’m İnanç Yiğit, an enthusiastic student pilot with a passion for aviation, engineering, and everything that takes to the sky.
+I’m IY, an enthusiastic student pilot with a passion for aviation, engineering, and everything that takes me to the sky.
 
 ## 🛫 Airports
-Airports I have flown from.
+Airports I have flown from:
 - [EHHV](/airports/EHHV.md) - Hilversum Airfield *As GA passenger only
 - [EHLE](/airports/EHLE.md) - Lelystad Airport
 - [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
 
 ## 🛩️ Airplanes
-Airplanes I have used during my lessons.
+Airplanes I have used during my lessons:
 - PH-4V1 [TL Ultralight TL-3000 Sirius](/airplanes/TL3000.md)
 - PH-EFL [Pipistrel Velis Electro](/airplanes/VelisElectro.md)
 - PH-LEN [Cessna 172](/airplanes/C172.md) *As GA passenger only
