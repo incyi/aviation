@@ -6,20 +6,24 @@ title: Home
 # ✈️ My Aviation life.
 
 ## Menu
-<ul>
-{% for file in site.static_files %}
-  {% if file.path contains '/airports/' %}
-    <li><a href="{{ file.path }}"> {{ file.name }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+
 
 <ul>
-{% for file in site.static_files %}
-  {% if file.path contains '/airplanes/' %}
-    <li><a>{{ file.path }} {{ file.name }}</a></li>
+{% comment %} ### Home page {% endcomment %}
+<li><a href="{{ '/' | relative_url }}">Home</a></li>
+{% comment %} ### Airports {% endcomment %}
+{% for page in site.pages %}
+  {% if page.path contains 'airports/' %}
+    <li><a href="{{ page.url }}">{{ page.name }}</a></li>
   {% endif %}
 {% endfor %}
+{% comment %} ### Airplanes {% endcomment %}
+{% for page in site.pages %}
+  {% if page.path contains 'airplanes/' %}
+    <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+  {% endif %}
+{% endfor %}
+{% comment %} ### Contact {% endcomment %}
 </ul>
 
 Welcome to my aviation portfolio.
