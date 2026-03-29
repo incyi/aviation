@@ -1,0 +1,18 @@
+## Menu
+<ul>
+{% comment %} ### Home page {% endcomment %}
+<li><a href="{{ '/' | relative_url }}">Home</a></li>
+{% comment %} ### Airports {% endcomment %}
+{% for page in site.pages %}
+  {% if page.path contains 'airports/' %}
+    <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+  {% endif %}
+{% endfor %}
+{% comment %} ### Airplanes {% endcomment %}
+{% for page in site.pages %}
+  {% if page.path contains 'airplanes/' %}
+    <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+  {% endif %}
+{% endfor %}
+{% comment %} ### Contact {% endcomment %}
+</ul>

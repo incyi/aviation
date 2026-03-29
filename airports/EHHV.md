@@ -4,3 +4,5 @@ title: Hilversum Airfield
 ---
 
 # EHHV
+
+{% include menu.html %}

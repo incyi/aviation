@@ -4,3 +4,5 @@ title: Lelystad Airport
 ---
 
 # EHLE
+
+{% include menu.html %}
