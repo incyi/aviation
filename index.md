@@ -9,7 +9,7 @@ title: Home
 <ul>
 {% for file in site.static_files %}
   {% if file.path contains '/airports/' %}
-    <li><a>{{ file.path }}</a></li>
+    <li><a href="{{ file.path }}"> {{ file.name }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -17,7 +17,7 @@ title: Home
 <ul>
 {% for file in site.static_files %}
   {% if file.path contains '/airplanes/' %}
-    <li><a>{{ file.path }}{{ file.name }}</a></li>
+    <li><a>{{ file.path }} {{ file.name }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
