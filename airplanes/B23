@@ -1,0 +1,9 @@
+---
+layout: default
+title: Bristell B23
+---
+
+# Bristell B23
+
+{% include menu.html %}
+
