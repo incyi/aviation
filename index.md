@@ -35,6 +35,7 @@ Airplanes I have used during my lessons:
 - PH-4V1 [TL Ultralight TL-3000 Sirius](/airplanes/TL3000.md)
 - PH-EFL [Pipistrel Velis Electro](/airplanes/VelisElectro.md)
 - PH-LEN [Cessna 172](/airplanes/C172.md) *As GA passenger only
+- PH-AFW [Bristell B23](/airplanes/B23.md)
 
 ## 📘 RPL-MLA Pilot logbook
 
