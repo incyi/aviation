@@ -4,6 +4,7 @@
 <li><a href="{{ '/' | relative_url }}">Home</a></li>
 
 <ul>
+  Airports:
 {% comment %} ### Airports {% endcomment %}
 {% for page in site.pages %}
   {% if page.path contains 'airports/' %}
@@ -13,6 +14,7 @@
 </ul>
 
 <ul>
+  Airplanes:
 {% comment %} ### Airplanes {% endcomment %}
 {% for page in site.pages %}
   {% if page.path contains 'airplanes/' %}
