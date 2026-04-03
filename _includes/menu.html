@@ -2,17 +2,24 @@
 <ul>
 {% comment %} ### Home page {% endcomment %}
 <li><a href="{{ '/' | relative_url }}">Home</a></li>
+
+<ul>
 {% comment %} ### Airports {% endcomment %}
 {% for page in site.pages %}
   {% if page.path contains 'airports/' %}
     <li><a href="{{ page.url }}">{{ page.name }}</a></li>
   {% endif %}
 {% endfor %}
+</ul>
+
+<ul>
 {% comment %} ### Airplanes {% endcomment %}
 {% for page in site.pages %}
   {% if page.path contains 'airplanes/' %}
     <li><a href="{{ page.url }}">{{ page.name }}</a></li>
   {% endif %}
 {% endfor %}
+</ul>
+
 {% comment %} ### Contact {% endcomment %}
 </ul>
