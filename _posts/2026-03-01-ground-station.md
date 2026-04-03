@@ -6,7 +6,7 @@ title:  "Ground station."
 <a href="{{ '/' | relative_url }}">Home</a>
 
 ## Building my own ground station.
-A few years ago, before I ever took control of an aircraft, my interest in aviation led me into the followinmg: building my own ground station.
+A few years ago, before I ever took control of an aircraft, my interest in aviation led me into the following: building my own ground station.
 At the time, I was still on the ground, but already deeply curious about how aircraft communicate and move through the skies.
 
 I set up a Raspberry Pi and connected an RTL-SDR receiver to capture ADS-B signals from passing aircraft.
