@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to another page](./index.md).
 
 There should be whitespace between paragraphs.
 
@@ -98,8 +98,7 @@ end
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
+![Branching](https://docs.github.com/assets/images/help/repository/branching.png)
 
 ### Definition lists can be used with HTML syntax.
 
