@@ -46,10 +46,23 @@ Airplanes I have used during my lessons:
 
 ## 📘 PPL Pilot logbook
 
-| Date      | From | To   | Aircraft Type          | Registration | Crew Function | Flight Time | Operation Type | Remarks             |
+| Date       | From | To   | Aircraft Type           | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
 |------------|------|------|-------------------------|--------------|---------------|-------------|----------------|-------------------------|
 | 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL       | Dual          | 0.7         | VFR Training   | Lesson 1 – Electric PPL |
-| 2026-04-14 | EHMM | EHMM | Bistrell B23            | PH-AFW       | Dual          | 1.0         | VFR Training   | Lesson 2 |
+| 2026-04-14 | EHMM | EHMM | Bistrell B23            | PH-AFW       | Dual          | 1.0         | VFR Training   | Lesson 2                |
+
+## 📘 Sailplane Pilot logbook
+
+| Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
+|------------|------|------|-----------------------|--------------|---------------|-------------|----------------|-------------------------|
+| 2026‑05‑13 | EHHV | EHHV |                       |              | Dual          |             |                |                         |
+| 2026-05-20 | EHLV | EHLV |                       |              | Dual          |             |                |                         |
+
+## 📘 TMG Pilot logbook
+
+| Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
+|------------|------|------|-----------------------|--------------|---------------|-------------|----------------|-------------------------|
+| 2026‑00-00 | EHHV | EHHV |                       |              | Dual          |             |                |                         |
 
 ## 📘 GA Passenger logbook
 
