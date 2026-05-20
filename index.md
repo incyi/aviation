@@ -29,6 +29,7 @@ Airports I have flown from:
 - [EHHV](/airports/EHHV.md) - Hilversum Airfield *As GA passenger only
 - [EHLE](/airports/EHLE.md) - Lelystad Airport
 - [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
+- EHLV - Vliegveld Langeveld 
 
 ## 🛩️ Airplanes
 Airplanes I have used during my lessons:
@@ -36,6 +37,7 @@ Airplanes I have used during my lessons:
 - PH-EFL [Pipistrel Velis Electro](/airplanes/VelisElectro.md)
 - PH-LEN [Cessna 172](/airplanes/C172.md) *As GA passenger only
 - PH-AFW [Bristell B23](/airplanes/B23.md)
+- PH-1637 Schleicher ASK 21 B
 
 ## 📘 RPL-MLA Pilot logbook
 
@@ -53,16 +55,14 @@ Airplanes I have used during my lessons:
 
 ## 📘 Sailplane Pilot logbook
 
-| Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
-|------------|------|------|-----------------------|--------------|---------------|-------------|----------------|-------------------------|
-| 2026‑05‑13 | EHHV | EHHV |                       |              | Dual          |             |                |                         |
-| 2026-05-20 | EHLV | EHLV |                       |              | Dual          |             |                |                         |
+| Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type      | Remarks             |
+|------------|------|------|-----------------------|--------------|---------------|-------------|---------------------|---------------------|
+| 2026-05-20 | EHLV | EHLV | ASK 21                | PH-1637      | Dual          | 7m          | Introductory flight |                     |
 
 ## 📘 TMG Pilot logbook
 
 | Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
 |------------|------|------|-----------------------|--------------|---------------|-------------|----------------|-------------------------|
-| 2026‑00-00 | EHHV | EHHV |                       |              | Dual          |             |                |                         |
 
 ## 📘 GA Passenger logbook
 
