@@ -8,7 +8,7 @@ Airports:
 {% comment %} ### Airports {% endcomment %}
 {% for page in site.pages %}
   {% if page.path contains 'airports/' %}
-    <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+    <li><a href="{{ page.url }}">{{ page.name | replace: ".md", "" }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -18,7 +18,7 @@ Airplanes:
 {% comment %} ### Airplanes {% endcomment %}
 {% for page in site.pages %}
   {% if page.path contains 'airplanes/' %}
-    <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+    <li><a href="{{ page.url }}">{{ page.name | replace: ".md", "" }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
