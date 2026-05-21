@@ -3,7 +3,7 @@ description: "My aviation stuff, pilot logbook and aircraft notes."
 theme: jekyll-theme-modernist
 
 lang: en
-timezone: Europe/Amsterdam
+timezone: UTC
 
 markdown: kramdown
 highlighter: rouge
