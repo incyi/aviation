@@ -16,7 +16,17 @@ All my blog posts:
   {% endfor %}
 </ul>
 
-UTC now: `{{ site.time | date_to_xmlschema }}`
+<p>UTC Time: <span id="utc-clock"></span></p>
+
+<script>
+function updateUTC() {
+  const now = new Date();
+  const utcString = now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
+  document.getElementById('utc-clock').textContent = utcString;
+}
+setInterval(updateUTC, 1000);
+updateUTC();
+</script>
 
 Hi, welcome to my aviation portfolio.
 Here I document my flights, training sessions, aircraft notes, and personal experiences as a student pilot.
