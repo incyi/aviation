@@ -16,7 +16,9 @@ All my blog posts:
   {% endfor %}
 </ul>
 
-Welcome to my aviation portfolio.
+UTC now: `{{ site.time | date_to_xmlschema }}`
+
+Hi, welcome to my aviation portfolio.
 Here I document my flights, training sessions, aircraft notes, and personal experiences as a student pilot.
 I also share observations, insights, and milestones throughout my aviation journey.  
 Full flying videos are available on my [YouTube channel.](https://youtube.com/@inanc64?si=KSc4CRotWbs08ldi)
