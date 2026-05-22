@@ -3,25 +3,41 @@
 {% comment %} ### Home page {% endcomment %}
 <li><a href="{{ '/' | relative_url }}">Home</a></li>
 
-Airports:
-<ul>
-{% comment %} ### Airports {% endcomment %}
-{% for page in site.pages %}
-  {% if page.path contains 'airports/' %}
-    <li><a href="{{ page.url }}">{{ page.name | replace: ".md", "" }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+<table>
+  <tr>
+    <!-- Airports kolom -->
+    <td style="vertical-align: top; padding-right: 20px;">
+      <strong>Airports:</strong>
+      <ul>
+        {% for page in site.pages %}
+          {% if page.path contains 'airports/' %}
+            <li>
+              <a href="{{ page.url }}">
+                {{ page.name | replace: ".md", "" }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </td>
 
-Airplanes:
-<ul>
-{% comment %} ### Airplanes {% endcomment %}
-{% for page in site.pages %}
-  {% if page.path contains 'airplanes/' %}
-    <li><a href="{{ page.url }}">{{ page.name | replace: ".md", "" }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+    <!-- Airplanes kolom -->
+    <td style="vertical-align: top;">
+      <strong>Airplanes:</strong>
+      <ul>
+        {% for page in site.pages %}
+          {% if page.path contains 'airplanes/' %}
+            <li>
+              <a href="{{ page.url }}">
+                {{ page.name | replace: ".md", "" }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </td>
+  </tr>
+</table>
 
 {% comment %} ### Contact {% endcomment %}
 </ul>
