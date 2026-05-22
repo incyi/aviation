@@ -1,12 +1,11 @@
-## Menu
-<ul>
-{% comment %} ### Home page {% endcomment %}
-<li><a href="{{ '/' | relative_url }}">Home</a></li>
-
-<table>
-  <tr>
-    <!-- Airports kolom -->
-    <td style="vertical-align: top; padding-right: 20px;">
+<div>
+  <!-- Home -->
+  <ul>
+    <li><a href="{{ '/' | relative_url-- 2 kolommen -->
+  <div style="display: flex; gap: 40px;">
+    
+    <!-- Airports -->
+    <div>
       <strong>Airports:</strong>
       <ul>
         {% for page in site.pages %}
@@ -19,10 +18,10 @@
           {% endif %}
         {% endfor %}
       </ul>
-    </td>
+    </div>
 
-    <!-- Airplanes kolom -->
-    <td style="vertical-align: top;">
+    <!-- Airplanes -->
+    <div>
       <strong>Airplanes:</strong>
       <ul>
         {% for page in site.pages %}
@@ -35,9 +34,7 @@
           {% endif %}
         {% endfor %}
       </ul>
-    </td>
-  </tr>
-</table>
+    </div>
 
-{% comment %} ### Contact {% endcomment %}
-</ul>
+  </div>
+</div>
