@@ -1,7 +1,5 @@
 # ✈️ Pilot Logbook - IY -
 
-
-
 My personal aviation-focused web app for logging flights, managing aircraft notes, and organizing airport data.
 
 Built with **Jekyll + GitHub Pages**, and enhanced with **Progressive Web App (PWA)** capabilities.
@@ -11,7 +9,6 @@ Built with **Jekyll + GitHub Pages**, and enhanced with **Progressive Web App (P
 ## 🌐 Live Site
 
 👉 https://aero.algorismi.nl  
-(or GitHub Pages fallback)
 
 ---
 
@@ -23,4 +20,3 @@ Built with **Jekyll + GitHub Pages**, and enhanced with **Progressive Web App (P
 - 📱 Progressive Web App (installable)
 - 🌙 Dark-themed UI (Modernist theme)
 - ⚡ Fast static site via GitHub Pages
-
