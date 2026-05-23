@@ -8,7 +8,7 @@ title: Home
 {% include menu.html %}
 
 All my blog posts:
-<ul>
+<ul style="margin: 5px 0 0 0; padding-left: 18px;">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
@@ -63,7 +63,7 @@ Airplanes I have used during my lessons:
 | Date       | From | To   | Aircraft Type           | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
 |------------|------|------|-------------------------|--------------|---------------|-------------|----------------|-------------------------|
 | 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL       | Dual          | 0.7         | VFR Training   | Lesson 1 – Electric PPL |
-| 2026-04-14 | EHMM | EHMM | Bistrell B23            | PH-AFW       | Dual          | 1.0         | VFR Training   | Lesson 2                |
+| 2026-04-14 | EHMM | EHMM | Bristell B23            | PH-AFW       | Dual          | 1.0         | VFR Training   | Lesson 2                |
 
 ## 📘 Sailplane Pilot logbook
 
@@ -73,8 +73,9 @@ Airplanes I have used during my lessons:
 
 ## 📘 TMG Pilot logbook
 
-| Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type | Remarks                 |
-|------------|------|------|-----------------------|--------------|---------------|-------------|----------------|-------------------------|
+| Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type     | Remarks                 |
+|------------|------|------|-----------------------|--------------|---------------|-------------|--------------------|-------------------------|
+|2026-00-00  |EHHV  |EHHV  |Super Dimona           |PH-AAA        |Dual           | 1.0         |Introductory flight |                         |
 
 ## 📘 GA Passenger logbook
 

@@ -1,37 +1,38 @@
-## Menu
-
 <!-- Home -->
-<ul>
-{% comment %} ### Home page {% endcomment %}
-<li><a href="{{ '/' | relative_url }}">Home</a></li>
+<a href="{{ '/' | relative_url }}">Home</a>
 
-  <!-- Airports kolom -->
-      Airports:
-      <ul>
-        {% for page in site.pages %}
-          {% if page.path contains 'airports/' %}
-            <li>
-              <a href="{{ page.url }}">
-                {{ page.name | replace: ".md", "" }}
-              </a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+<div style="display: flex;">
 
-    <!-- Airplanes kolom -->
-      Airplanes:
-      <ul>
-        {% for page in site.pages %}
-          {% if page.path contains 'airplanes/' %}
-            <li>
-              <a href="{{ page.url }}">
-                {{ page.name | replace: ".md", "" }}
-              </a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-  
-{% comment %} ### Contact {% endcomment %}
-</ul>
+  <div style="flex: 1;">
+    <div style="font-weight: bold;">Airports</div>
+
+    <ul style="margin: 5px 0; padding-left: 18px;">
+      {% for page in site.pages %}
+        {% if page.path contains 'airports/' %}
+          <li>
+            <a href="{{ page.url }}">
+              {{ page.name | replace: ".md", "" }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div style="flex: 1;">
+    <div style="font-weight: bold;">Airplanes</div>
+
+    <ul style="margin: 5px 0; padding-left: 18px;">
+      {% for page in site.pages %}
+        {% if page.path contains 'airplanes/' %}
+          <li>
+            <a href="{{ page.url }}">
+              {{ page.name | replace: ".md", "" }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
