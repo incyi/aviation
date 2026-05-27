@@ -15,8 +15,11 @@ All my blog posts:
     </li>
   {% endfor %}
 </ul>
-
-<p>UTC Time: <span id="utc-clock"></span></p>
+  
+<p>
+UTC Time       : <span id="utc-clock"></span>
+Amsterdam Time : <span id="ams-clock"></span>
+</p>
 
 <script>
 function updateUTC() {
@@ -29,11 +32,7 @@ function updateUTC() {
 }
 setInterval(updateUTC, 1000);
 updateUTC();
-</script>
 
-<p>Amsterdam Time: <span id="ams-clock"></span></p>
-
-<script>
 function updateAMS() {
   const now = new Date();
   const amsString = now.toLocaleString('nl-NL', {
@@ -42,6 +41,7 @@ function updateAMS() {
   });
   document.getElementById('ams-clock').textContent = amsString;
 }
+
 setInterval(updateAMS, 1000);
 updateAMS();
 </script>
