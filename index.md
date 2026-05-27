@@ -3,24 +3,7 @@ layout: default
 title: Home
 ---
 
-# ✈️ My Aviation life
-
-{% include menu.html %}
-
-All my blog posts:
-<ul style="margin: 5px 0 0 0; padding-left: 18px;">
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-<br>
-<p>
-UTC Time       : <span id="utc-clock"></span><br>
-Amsterdam Time : <span id="ams-clock"></span>    
-</p>
-
+<!-- Put all scripts here, if possible. -->
 <script>
 function updateUTC() {
   const now = new Date();
@@ -41,10 +24,30 @@ function updateAMS() {
   });
   document.getElementById('ams-clock').textContent = amsString;
 }
-
 setInterval(updateAMS, 1000);
 updateAMS();
 </script>
+
+<!-- Start of content. -->
+
+# ✈️ My Aviation life
+
+{% include menu.html %}
+
+All my blog posts:
+<ul style="margin: 5px 0 0 0; padding-left: 18px;">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<br>
+
+<p>
+UTC Time : <span id="utc-clock"></span><br>
+AMS Time : <span id="ams-clock"></span>    
+</p>
 
 Hi, welcome to my aviation portfolio.
 Here I document my flights, training sessions, aircraft notes, and personal experiences as a student pilot.
@@ -59,7 +62,8 @@ Airports I have flown from:
 - [EHHV](/airports/EHHV.md) - Hilversum Airfield *As GA passenger only
 - [EHLE](/airports/EHLE.md) - Lelystad Airport
 - [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
-- EHLV - Vliegveld Langeveld 
+- EHLV - Vliegveld Langeveld
+
 <br>
 
 ## 🛩️ Airplanes
@@ -69,6 +73,7 @@ Airplanes I have used during my lessons:
 - PH-LEN [Cessna 172](/airplanes/C172.md) *As GA passenger only
 - PH-AFW [Bristell B23](/airplanes/B23.md)
 - PH-1637 Schleicher ASK 21 B
+
 <br>
 
 ## 📘 RPL-MLA Pilot logbook
@@ -77,6 +82,7 @@ Airplanes I have used during my lessons:
 |------------|------|------|---------------|--------------|---------------|-------------|----------------|----------|
 | 2025‑08‑21 | EHMM | EHMM | TL‑3000       | PH‑4V1       | Dual          | 1.0         | VFR Training   | Lesson 1 |
 | 2025‑09‑30 | EHMM | EHMM | TL‑3000       | PH‑4V1       | Dual          | 1.0         | VFR Training   | Lesson 2 |
+
 <br>
 
 ## 📘 PPL Pilot logbook
@@ -85,6 +91,7 @@ Airplanes I have used during my lessons:
 |------------|------|------|-------------------------|--------------|---------------|-------------|----------------|-------------------------|
 | 2025‑12‑10 | EHLE | EHLE | Pipistrel Velis Electro | PH‑EFL       | Dual          | 0.7         | VFR Training   | Lesson 1 – Electric PPL |
 | 2026-04-14 | EHMM | EHMM | Bristell B23            | PH-AFW       | Dual          | 1.0         | VFR Training   | Lesson 2                |
+
 <br>
 
 ## 📘 Sailplane Pilot logbook
@@ -92,6 +99,7 @@ Airplanes I have used during my lessons:
 | Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type      | Remarks             |
 |------------|------|------|-----------------------|--------------|---------------|-------------|---------------------|---------------------|
 | 2026-05-20 | EHLV | EHLV | ASK 21                | PH-1637      | Dual          | 7m          | Introductory flight |                     |
+
 <br>
 
 ## 📘 TMG Pilot logbook
@@ -99,6 +107,7 @@ Airplanes I have used during my lessons:
 | Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type     | Remarks                 |
 |------------|------|------|-----------------------|--------------|---------------|-------------|--------------------|-------------------------|
 |2026-00-00  |EHHV  |EHHV  |Super Dimona           |PH-AAA        |Dual           | 1.0         |Introductory flight |                         |
+
 <br>
 
 ## 📘 GA Passenger logbook
@@ -106,4 +115,5 @@ Airplanes I have used during my lessons:
 | Date       | From | To   | Aircraft Type | Registration | Seat      | Flight Time | Operation Type     | Remarks                          |
 |------------|------|------|---------------|--------------|-----------|-------------|--------------------|----------------------------------|
 | 2026‑03‑08 | EHHV | EHHV | C172          | PH‑LEN       | Left back | 0.5         | Sightseeing flight | Ömer right front, Zeyd right back|
+
 <br>
