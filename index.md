@@ -3,33 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- Put all scripts here, if possible. -->
-<script>
-function updateUTC() {
-  const now = new Date();
-  const utcString = now.toLocaleString('nl-NL', {
-    timeZone: 'UTC',
-    hour12: false
-  });
-  document.getElementById('utc-clock').textContent = utcString + ' UTC';
-}
-setInterval(updateUTC, 1000);
-updateUTC();
-
-function updateAMS() {
-  const now = new Date();
-  const amsString = now.toLocaleString('nl-NL', {
-    timeZone: 'Europe/Amsterdam',
-    hour12: false
-  });
-  document.getElementById('ams-clock').textContent = amsString;
-}
-setInterval(updateAMS, 1000);
-updateAMS();
-</script>
-
-<!-- Start of content. -->
-
 # ✈️ My Aviation life
 
 {% include menu.html %}
@@ -117,3 +90,25 @@ Airplanes I have used during my lessons:
 | 2026‑03‑08 | EHHV | EHHV | C172          | PH‑LEN       | Left back | 0.5         | Sightseeing flight | Ömer right front, Zeyd right back|
 
 <br>
+
+<!-- Put all scripts here, if possible. -->
+<script>
+function updateClocks() {
+  const now = new Date();
+
+  document.getElementById('utc-clock').textContent =
+    now.toLocaleString('nl-NL', {
+      timeZone: 'UTC',
+      hour12: false
+    }) + ' UTC';
+
+  document.getElementById('ams-clock').textContent =
+    now.toLocaleString('nl-NL', {
+      timeZone: 'Europe/Amsterdam',
+      hour12: false
+    });
+}
+
+setInterval(updateClocks, 1000);
+updateClocks();
+</script>
