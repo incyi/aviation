@@ -20,7 +20,7 @@ All my blog posts:
 <p>
 UTC Time : 
 <span id="utc-clock"></span>
-<span id="zulu-clock" style="opacity: 0.4; margin-left: 8px;"></span>
+<span id="zulu-clock" class="zulu-blink"></span>
 <br>
 AMS Time : <span id="ams-clock"></span>    
 </p>
