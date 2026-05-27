@@ -18,7 +18,10 @@ All my blog posts:
 <br>
 
 <p>
-UTC Time : <span id="utc-clock"></span><br>
+UTC Time : 
+<span id="utc-clock"></span>
+<span id="zulu-clock" style="opacity: 0.4; margin-left: 8px;"></span>
+<br>
 AMS Time : <span id="ams-clock"></span>    
 </p>
 
@@ -96,12 +99,20 @@ Airplanes I have used during my lessons:
 function updateClocks() {
   const now = new Date();
 
+  // UTC
   document.getElementById('utc-clock').textContent =
     now.toLocaleString('nl-NL', {
       timeZone: 'UTC',
       hour12: false
     }) + ' UTC';
 
+  // Zulu (AVIATION FORMAT)
+  const zulu = now.toISOString()
+    .slice(11, 16)
+    .replace(':', '') + 'Z';
+  document.getElementById('zulu-clock').textContent = zulu;
+
+  // Amsterdam
   document.getElementById('ams-clock').textContent =
     now.toLocaleString('nl-NL', {
       timeZone: 'Europe/Amsterdam',
