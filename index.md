@@ -21,11 +21,29 @@ All my blog posts:
 <script>
 function updateUTC() {
   const now = new Date();
-  const utcString = now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
-  document.getElementById('utc-clock').textContent = utcString;
+  const utcString = now.toLocaleString('nl-NL', {
+    timeZone: 'UTC',
+    hour12: false
+  });
+  document.getElementById('utc-clock').textContent = utcString + ' UTC';
 }
 setInterval(updateUTC, 1000);
 updateUTC();
+</script>
+
+<p>Amsterdam Time: <span id="ams-clock"></span></p>
+
+<script>
+function updateAMS() {
+  const now = new Date();
+  const amsString = now.toLocaleString('nl-NL', {
+    timeZone: 'Europe/Amsterdam',
+    hour12: false
+  });
+  document.getElementById('ams-clock').textContent = amsString;
+}
+setInterval(updateAMS, 1000);
+updateAMS();
 </script>
 
 Hi, welcome to my aviation portfolio.
