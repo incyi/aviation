@@ -1,11 +1,12 @@
 ---
 layout: default
-title:  "My Aviation Life, by IY."
+title:  "My Aviation Life, by IY"
 ---
 
-<a href="{{ '/' | relative_url }}">Home</a>
+## My aviation life, by IY
 
-## My aviation life, by IY.
+{% include menu.html %}
+
 Welcome to my aviation blog. A place where I document my journey through the world of flying. Here you’ll find my flights, training sessions, aircraft notes, and personal experiences as a student pilot, along with the lessons and milestones that shape my path.
 
 ### The Beginning of a Dream

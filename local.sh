@@ -2,5 +2,4 @@
 
 bundle install
 
-bundle exec jekyll serve --incremental --trace
-
+bundle exec jekyll serve --livereload --incremental --trace
