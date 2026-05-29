@@ -20,3 +20,4 @@ Built with **Jekyll + GitHub Pages**, and enhanced with **Progressive Web App (P
 - 📱 Progressive Web App (installable)
 - 🌙 Dark-themed UI (Modernist theme)
 - ⚡ Fast static site via GitHub Pages
+- 💻 Test locally with local.sh
