@@ -107,7 +107,8 @@ function updateClocks() {
     }) + ' UTC';
 
   // Zulu (AVIATION FORMAT)
-  const zulu = now.toISOString()
+  const day = String(now.getUTCDate()).padStart(2, '0');
+  const zulu = day + now.toISOString()
     .slice(11, 16)
     .replace(':', '') + 'Z';
   document.getElementById('zulu-clock').textContent = zulu;
