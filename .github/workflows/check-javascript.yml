@@ -1,4 +1,4 @@
-name: Check JavaScript in Markdown Files (Strict)
+name: Check JavaScript
 
 on:
   push:
