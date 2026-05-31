@@ -121,25 +121,28 @@ function updateClocks() {
     });
 }
 
-setInterval(updateClocks, 1000);
-updateClocks();
-
 // Function to add links dynamically to the Registration columns function
 function linkifyRegistrationColumns() {
     document.querySelectorAll("table tbody tr").forEach(row => {
         const registrationCell = row.cells[4]; // 5th column
-        if (!Registration) return;
+        if (!Registration)
+          return;
         const regValue = Registration.textContent.trim();
-        if (!regValue) return;
+        if (!regValue)
+          return;
         const link = document.createElement("a");
         link.href = `https://www.flightradar24.com/data/aircraft/${encodeURIComponent(regValue.toLowerCase())}`;
         link.target = "_blank";
         link.rel = "noopener noreferrer";
         link.textContent = regValue;
-        registrationCell.replaceChildren(link);
+        Registration.replaceChildren(link);
     });
 }
 
 // Run after the table is loaded
 linkifyRegistrationColumns();
+setInterval(updateClocks, 1000);
+updateClocks();
+
 </script>
+<!-- Put all scripts here, if possible. -->
