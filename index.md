@@ -125,9 +125,9 @@ function updateClocks() {
 function linkifyRegistrationColumns() {
     document.querySelectorAll("table tbody tr").forEach(row => {
         const registrationCell = row.cells[4]; // 5th column
-        if (!Registration)
+        if (!registrationCell)
           return;
-        const regValue = Registration.textContent.trim();
+        const regValue = registrationCell.textContent.trim();
         if (!regValue)
           return;
         const link = document.createElement("a");
@@ -135,7 +135,7 @@ function linkifyRegistrationColumns() {
         link.target = "_blank";
         link.rel = "noopener noreferrer";
         link.textContent = regValue;
-        Registration.replaceChildren(link);
+        registrationCell.replaceChildren(link);
     });
 }
 
