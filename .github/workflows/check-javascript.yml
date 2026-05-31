@@ -1,0 +1,57 @@
+name: Check JavaScript in Markdown Files (Strict)
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ '**.md' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ '**.md' ]
+
+jobs:
+  check-scripts:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Validate JavaScript in markdown files
+        run: |
+          #!/bin/bash
+          set -e
+          
+          files_with_scripts=$(find . -name "*.md" -exec grep -l "<script>" {} \;)
+          
+          if [ -z "$files_with_scripts" ]; then
+            echo "✓ No <script> tags found in markdown files"
+            exit 0
+          fi
+          
+          echo "Found script tags in:"
+          echo "$files_with_scripts"
+          
+          failed=0
+          
+          while IFS= read -r file; do
+            echo ""
+            echo "Validating: $file"
+            
+            # Extract script content
+            sed -n '/<script>/,/<\/script>/p' "$file" > /tmp/script_to_check.js
+            
+            # Check syntax using Node.js
+            if ! node -c /tmp/script_to_check.js 2>/dev/null; then
+              echo "❌ Syntax error found in $file"
+              failed=1
+            else
+              echo "✓ Valid JavaScript in $file"
+            fi
+          done <<< "$files_with_scripts"
+          
+          exit $failed
