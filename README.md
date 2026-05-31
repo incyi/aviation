@@ -1,5 +1,7 @@
 # ✈️ Pilot Logbook - IY -
 
+[![Check JavaScript](https://github.com/incyi/aviation/actions/workflows/check-javascript.yml/badge.svg)](https://github.com/incyi/aviation/actions/workflows/check-javascript.yml)
+
 My personal aviation-focused web app for logging flights, managing aircraft notes, and organizing airport data.
 
 Built with **Jekyll + GitHub Pages**, and enhanced with **Progressive Web App (PWA)** capabilities.
