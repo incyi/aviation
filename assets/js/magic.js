@@ -9,17 +9,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const now = new Date();
 
     utcEl.textContent =
-      now.toLocaleString("nl-NL", {
-        timeZone: "UTC",
-        hour12: false
-      }) + " UTC";
+      now.toLocaleString("nl-NL", { timeZone: "UTC", hour12: false }) + " UTC";
 
     const zuluTime = now
       .toLocaleTimeString("en-GB", {
         timeZone: "UTC",
         hour12: false,
         hour: "2-digit",
-        minute: "2-digit"
+        minute: "2-digit",
       })
       .replace(":", "");
 
@@ -29,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     amsEl.textContent = now.toLocaleString("nl-NL", {
       timeZone: "Europe/Amsterdam",
-      hour12: false
+      hour12: false,
     });
   }
 
@@ -48,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const link = document.createElement("a");
       link.href = `https://www.flightradar24.com/data/aircraft/${encodeURIComponent(
-        regValue.toLowerCase()
+        regValue.toLowerCase(),
       )}`;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
