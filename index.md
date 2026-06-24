@@ -75,6 +75,7 @@ Airplanes I have used during my lessons:
 | Date       | From | To   | Aircraft Type         | Registration | Crew Function | Flight Time | Operation Type      | Remarks             |
 |------------|------|------|-----------------------|--------------|---------------|-------------|---------------------|---------------------|
 | 2026-05-20 | EHLV | EHLV | ASK 21                | PH-1637      | Dual          | 7m          | Introductory flight |                     |
+| 2026-06-24 | EHHV | EHHV | DG-1000S              | PH-1432      | Dual          | 9m          | Introductory flight |                     |
 
 <br>
 
