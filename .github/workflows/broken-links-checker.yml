@@ -3,7 +3,7 @@ name: Broken-links Checker
 on:
   schedule:
     # - cron: '0 13 * * 5'
-    - cron: '5 10 * * 4'
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: read
