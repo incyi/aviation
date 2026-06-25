@@ -2,8 +2,12 @@ name: Broken-links Checker
 
 on:
   schedule:
-    - cron: '0 13 * * 5'
+    # - cron: '0 13 * * 5'
+    - cron: '5 10 * * 4'
 
+permissions:
+  contents: read
+  
 jobs:
   check-links:
     runs-on: ubuntu-latest
