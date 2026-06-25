@@ -2,39 +2,3 @@
 
 <a href="{{ '/' | relative_url }}">Home</a> - 
 <a href="{{ 'contact' | relative_url }}">Contact</a>
-
-<!-- Airports and airplanes -->
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <div style="font-weight: bold;">Airports</div>
-
-    <ul style="margin: 5px 0; padding-left: 18px;">
-      {% for page in site.pages %}
-        {% if page.path contains 'airports/' %}
-          <li>
-            <a href="{{ page.url }}">
-              {{ page.name | replace: ".md", "" }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div style="flex: 1;">
-    <div style="font-weight: bold;">Airplanes</div>
-
-    <ul style="margin: 5px 0; padding-left: 18px;">
-      {% for page in site.pages %}
-        {% if page.path contains 'airplanes/' %}
-          <li>
-            <a href="{{ page.url }}">
-              {{ page.name | replace: ".md", "" }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-
-</div>
