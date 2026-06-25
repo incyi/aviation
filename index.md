@@ -35,9 +35,9 @@ I’m IY, an enthusiastic student pilot with a passion for aviation, engineering
 
 ## 🛫 Airports
 Airports I have flown from:
-- [EHHV](/airports/EHHV.md) - Hilversum Airfield
-- [EHLE](/airports/EHLE.md) - Lelystad Airport
-- [EHMM](/airports/EHMM.md) - Middenmeer Aerodrome
+- EHHV - Hilversum Airfield
+- EHLE - Lelystad Airport
+- EHMM - Middenmeer Aerodrome
 - EHLV - Vliegveld Langeveld
 
 <br>
