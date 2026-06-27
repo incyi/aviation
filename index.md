@@ -7,16 +7,6 @@ title: Home
 
 {% include menu.html %}
 
-All my blog posts:
-<ul style="margin: 5px 0 0 0; padding-left: 18px;">
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-<br>
-
 <p>
 UTC Time : 
 <span id="utc-clock"></span>
@@ -53,7 +43,7 @@ Airplanes I have used during my lessons:
 
 <br>
 
-## 📘 General aviation Passenger logbook
+## 📘 General aviation passenger logbook
 
 | Date       | From | To   | Aircraft Type | Registration | Seat      | Flight Time | Operation Type     | Remarks                          |
 |------------|------|------|---------------|--------------|-----------|-------------|--------------------|----------------------------------|

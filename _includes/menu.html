@@ -1,4 +1,15 @@
-<!-- Top links Home ... -->
+<!-- Top links ... -->
 
 <a href="{{ '/' | relative_url }}">Home</a> - 
+<a href="{{ 'template' | relative_url }}">Template</a> - 
 <a href="{{ 'contact' | relative_url }}">Contact</a>
+
+All my blog posts:
+<ul style="margin: 5px 0 0 0; padding-left: 18px;">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<br />

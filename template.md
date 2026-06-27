@@ -2,9 +2,13 @@
 layout: default
 ---
 
+# 🚧 Template
+
+{% include menu.html %}
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./index.md).
+[Link to another page](../index).
 
 There should be whitespace between paragraphs.
 
