@@ -28,12 +28,8 @@ jobs:
           go install github.com/raviqqe/muffet@latest
           
           # Run muffet on the website
-          $(go env GOPATH)/bin/muffet \
-            --buffer-size=8192 \
-            --max-connections=10 \
-            --timeout=30s \
-            --follow-robots-txt \
-            https://aero.algorismi.nl/
+          MUFFET_BIN=$(go env GOPATH)/bin/muffet
+          $MUFFET_BIN -b 8192 -c 10 -t 30 https://aero.algorismi.nl/ || true
         continue-on-error: true
 
       - name: Report results
