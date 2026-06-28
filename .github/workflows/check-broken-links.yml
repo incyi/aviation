@@ -1,0 +1,43 @@
+name: Check Broken links
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 16 * * 5'
+    
+permissions:
+  contents: read
+  
+jobs:
+  check-broken-links:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Wait for the website has been uploaded.
+        run: |
+          echo "Waiting for the website to be uploaded..."
+          sleep 60
+
+      - name: Check broken links with muffet
+        run: |
+          # Install muffet (Go-based link checker)
+          go install github.com/raviqqe/muffet@latest
+          
+          # Run muffet on the website
+          $(go env GOPATH)/bin/muffet \
+            --buffer-size=8192 \
+            --max-connections=10 \
+            --timeout=30s \
+            --follow-robots-txt \
+            https://aero.algorismi.nl/
+        continue-on-error: true
+
+      - name: Report results
+        if: always()
+        run: |
+          echo "Link check completed"
+          echo "Check the output above for any broken links"
