@@ -24,3 +24,4 @@ Built with **Jekyll + GitHub Pages**, and enhanced with **Progressive Web App (P
 - 🌙 Dark-themed UI (Modernist theme)
 - ⚡ Fast static site via GitHub Pages
 - 💻 Test locally with local.sh
+
