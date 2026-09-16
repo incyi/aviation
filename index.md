@@ -15,6 +15,10 @@ UTC Time :
 AMS Time : <span id="ams-clock"></span>    
 </p>
 
+## 🔗 links
+[eAIP by LVNL](https://eaip.lvnl.nl/web/eaip/default.html)
+
+## 📣 The message
 As-Salāmu ʿAlaykum, welcome to my aviation portfolio.
 Here I document my flights, training sessions, aircraft notes, and personal experiences as a student pilot.
 I also share observations, insights, and milestones throughout my aviation journey.  
