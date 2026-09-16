@@ -16,8 +16,8 @@ AMS Time : <span id="ams-clock"></span>
 </p>
 
 ## 🔗 links
-[eAIP by LVNL](https://eaip.lvnl.nl/web/eaip/default.html)
-[Supplementen van Bas Vrijhof](https://www.pplboeken.nl/Webwinkel-Page-2297333/Aanvullingen-op-de-boeken.html)
+[eAIP by LVNL](https://eaip.lvnl.nl/web/eaip/default.html)  
+[Supplementen van Bas Vrijhof](https://www.pplboeken.nl/Webwinkel-Page-2297333/Aanvullingen-op-de-boeken.html)  
 
 ## 📣 The message
 As-Salāmu ʿAlaykum, welcome to my aviation portfolio.
